@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables & secrets (CRITICAL: keeps your API keys safe)
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit config and cache
+.streamlit/secrets.toml
+
+# Hugging Face / PyTorch / Torch cache (downloaded models)
+.cache/
+hf_cache/
+
+# FAISS local indices (if saved locally)
+*.index
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker & build artifacts
+*.tar
+.dockerignore

@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+google-generativeai
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+sentence-transformers
+youtube-transcript-api
+faiss-cpu
